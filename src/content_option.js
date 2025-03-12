@@ -80,12 +80,12 @@ const services = [{
 const dataportfolio = [
     {
         img: "https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum auctor.",
+        link: "https://www.lipsum.com/",
     },
     {
         img: "https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum auctor.",
         link: "#",
     },
 ];

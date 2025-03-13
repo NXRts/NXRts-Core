@@ -1,3 +1,5 @@
+import { FaYoutube } from "react-icons/fa";
+
 const logotext = "NXRts";
 const meta = {
     title: "NXRts",
@@ -68,11 +70,11 @@ const skills = [{
 ];
 
 const services = [{
-        title: "UI & UX Design",
+        title: "Backend Enginner",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
-        title: "Mobile Apps",
+        title: "Web Development",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
 ];
@@ -91,19 +93,21 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
+    YOUR_EMAIL: "arrofisamsung168@gmail.com",
+    YOUR_FONE: "(+62)813-2911-3137",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_gw9aolk",
+    YOUR_TEMPLATE_ID: "template_twcaj4p",
+    YOUR_USER_ID: "TYj4dOIo-yEYsArvV",
+    // YOUR_PUBLIC_KEY: "",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/NXRts",
+    linkedin: "https://www.linkedin.com/in/muhammad-yusuf-arrofi-a26140299/",
+    twitter: "https://x.com/MYArrofi",
+    instagram: "https://www.instagram.com/my_arrofi/",
+    youtube: "https://www.youtube.com/@MyArrofi",
 };
 export {
     meta,

@@ -11,7 +11,7 @@ const introdata = {
     animated: {
         first: "I love coding",
         second: "I code cool websites",
-        third: "I develop APi Websites and Apps",   
+        third: "I develop APi Websites",   
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
     your_img_url: "https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc",
@@ -19,7 +19,7 @@ const introdata = {
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: " Name: Muhammad Yusuf Arrofi | Code name: NXRts | Age: 18 | School: SMKN 2 KARANGANYAR | I'm a passionate developer with experience in web development. Always eager to learn new things and challenge myself to build better solutions. | Just a regular student who's no different from anyone else on the earth.",
 };
 const worktimeline = [{
         jobtitle: "Backend Enginner",

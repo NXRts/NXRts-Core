@@ -9,16 +9,16 @@ const meta = {
 const introdata = {
     title: "I’m MYusuf Arrofi",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop APi Websites",   
+        first: "I Love Coding",
+        second: "I Code Cool Websites",
+        third: "I Develop Web API",   
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "I'm a passionate developer with experience in web development. Always eager to learn new things and challenge myself to build better solutions.",
     your_img_url: "https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc",
 };
 
 const dataabout = {
-    title: "abit about my self",
+    title: "About My Self",
     aboutme: " Name: Muhammad Yusuf Arrofi | Code name: NXRts | Age: 18 | School: SMKN 2 KARANGANYAR | I'm a passionate developer with experience in web development. Always eager to learn new things and challenge myself to build better solutions. | Just a regular student who's no different from anyone else on the earth.",
 };
 const worktimeline = [{
@@ -64,6 +64,10 @@ const skills = [{
         value: 50,
     },
     {
+        name: "PHP",
+        value: 50,
+    },
+    {
         name: "HTML CSS",
         value: 85,
     },
@@ -71,25 +75,75 @@ const skills = [{
 
 const services = [{
         title: "Backend Enginner",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Sebagai Backend Engineer, saya bertanggung jawab untuk mengembangkan dan memelihara server, database, dan API backend. Saya juga bertanggung jawab untuk mengelola dan mengoptimalkan kinerja API. Saya memiliki pengalaman dalam mengembangkan aplikasi backend menggunakan Golang dan PostsgreSql. Saya memiliki pengetahuan yang baik tentang konsep REST API. Saya memiliki pengalaman dalam mengelola server menggunakan Docker dan EnginX",
     },
     {
         title: "Web Development",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Sebagai Web Developer, saya bertanggung jawab untuk mengembangkan dan memelihara website. Saya memiliki pengalaman dalam mengembangkan website menggunakan PHP, React, Next, dan Node Js. Saya memiliki pengetahuan yang baik tentang konsep frontend dan backend. Saya memiliki pengalaman dalam mengelola server menggunakan Docker dan EnginX",
     },
 ];
 
-const dataportfolio = [
-    {
-        img: "https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum auctor.",
-        link: "https://www.lipsum.com/",
-    },
-    {
-        img: "https://images.unsplash.com/photo-1513789181297-6f2ec112c0bc",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum auctor.",
+const dataportfolio = [{
+        img: "https://s6.gifyu.com/images/bz4Bk.png",
+        description: "Simaku E-Learning | Aplikasi Pembelajaran Sekolah Berbasis E-Learning",
         link: "#",
     },
+    {
+        img: "https://s6.gifyu.com/images/bz4yi.png",
+        description: "BukuTamu | Beragam Event Menanti Siap Untuk Kamu Eksplorasi",
+        link: "#",
+    },
+    {
+        img: "https://portfolio-wheat-delta-45.vercel.app/Portfolio/Pomodoro.png",
+        description: "Pomodoro Time | Aplikasi manajemen waktu untuk membagi waktu kerja diselingi dengan waktu istirahat",
+        link: "https://pomodoro-time-eta.vercel.app/",
+    },
+    // {
+    //     img: "https://picsum.photos/400/600/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/300/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/700/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+
+    // {
+    //     img: "https://picsum.photos/400/600/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/300/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/550/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/700/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
 ];
 
 const contactConfig = {
@@ -99,7 +153,6 @@ const contactConfig = {
     YOUR_SERVICE_ID: "service_gw9aolk",
     YOUR_TEMPLATE_ID: "template_twcaj4p",
     YOUR_USER_ID: "TYj4dOIo-yEYsArvV",
-    // YOUR_PUBLIC_KEY: "",
 };
 
 const socialprofils = {

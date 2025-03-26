@@ -98,11 +98,11 @@ const dataportfolio = [{
         description: "Pomodoro Time | Aplikasi manajemen waktu untuk membagi waktu kerja diselingi dengan waktu istirahat",
         link: "https://pomodoro-time-eta.vercel.app/",
     },
-    // {
-    //     img: "https://picsum.photos/400/600/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
+    {
+        img: "https://s6.gifyu.com/images/bz01m.png",
+        description: "Web Boografi Kazuhiko Nagata",
+        link: "https://smokey-nagata.vercel.app/",
+    },
     // {
     //     img: "https://picsum.photos/400/300/?grayscale",
     //     description: "The wisdom of life consists in the elimination of non-essentials.",

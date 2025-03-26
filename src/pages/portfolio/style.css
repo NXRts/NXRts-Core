@@ -1,14 +1,16 @@
 .po_items_ho {
-    column-width: 18em; 
-    column-gap: 18rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 item per baris */
+    gap: 2rem; /* Jarak antar item */
+    justify-content: center;
 }
 
 .po_item {
-    display: inline-block;
-    width: 40em; /* Lebar lebih besar */
-    height: 24em; /* Tinggi lebih besar */
+    width: 100%;
+    max-width: 40em; /* Maksimal 40em agar tidak terlalu besar */
+    height: 24em; 
     text-align: center;
-    margin: 0.5rem auto;
+    margin: auto;
     position: relative;
     background: var(--secondary-color);
     padding: 10px;
@@ -58,4 +60,27 @@
 
 .po_item .content a:hover {
     text-decoration: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) { /* Untuk tablet */
+    .po_items_ho {
+        grid-template-columns: repeat(1, 1fr); /* 1 item per baris di tablet */
+    }
+
+    .po_item {
+        max-width: 30em; /* Sedikit lebih kecil di tablet */
+        height: 20em;
+    }
+}
+
+@media (max-width: 768px) { /* Untuk HP */
+    .po_items_ho {
+        grid-template-columns: repeat(1, 1fr); /* Tetap 1 item per baris di HP */
+    }
+
+    .po_item {
+        max-width: 100%; /* Full lebar */
+        height: auto; /* Biarkan tinggi menyesuaikan */
+    }
 }

@@ -19,12 +19,11 @@ export const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setFormdata({ loading: true });
+    setFormdata((prevState) => ({ ...prevState, loading: true }));
 
     const templateParams = {
-      from_name: formData.email,
-      user_name: formData.name,
-      to_name: contactConfig.YOUR_EMAIL,
+      name: formData.name,
+      email: formData.email,
       message: formData.message,
     };
 
@@ -39,19 +38,24 @@ export const ContactUs = () => {
         (result) => {
           console.log(result.text);
           setFormdata({
+            email: "",
+            name: "",
+            message: "",
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! Thank you for your message.",
             variant: "success",
             show: true,
           });
         },
         (error) => {
           console.log(error.text);
-          setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
+          setFormdata((prevState) => ({
+            ...prevState,
+            loading: false,
+            alertmessage: `Failed to send! ${error.text}`,
             variant: "danger",
             show: true,
-          });
+          }));
           document.getElementsByClassName("co_alert")[0].scrollIntoView();
         }
       );
@@ -81,12 +85,9 @@ export const ContactUs = () => {
         <Row className="sec_sp">
           <Col lg="12">
             <Alert
-              //show={formData.show}
               variant={formData.variant}
-              className={`rounded-0 co_alert ${
-                formData.show ? "d-block" : "d-none"
-              }`}
-              onClose={() => setFormdata({ show: false })}
+              className={`rounded-0 co_alert ${formData.show ? "d-block" : "d-none"}`}
+              onClose={() => setFormdata((prevState) => ({ ...prevState, show: false }))}
               dismissible
             >
               <p className="my-0">{formData.alertmessage}</p>
@@ -120,7 +121,7 @@ export const ContactUs = () => {
                     id="name"
                     name="name"
                     placeholder="Name"
-                    value={formData.name || ""}
+                    value={formData.name}
                     type="text"
                     required
                     onChange={handleChange}
@@ -133,7 +134,7 @@ export const ContactUs = () => {
                     name="email"
                     placeholder="Email"
                     type="email"
-                    value={formData.email || ""}
+                    value={formData.email}
                     required
                     onChange={handleChange}
                   />

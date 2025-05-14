@@ -23,49 +23,49 @@ const dataabout = {
 };
 const worktimeline = [{
         jobtitle: "Backend Enginner",
-        where: "Yusuf",
+        where: "DigiDreams",
         date: "2025",
     },
     {
         jobtitle: "web developer",
-        where: "Yusuf",
+        where: "SMKN 2 KARANGANYAR",
         date: "2024",
     },
     {
         jobtitle: "web developer",
-        where: "Yusuf",
+        where: "SMKN 2 KARANGANYAR",
         date: "2023",
     },
     {
         jobtitle: "web developer",
-        where: "Yusuf",
+        where: "SMKN 2 KARANGANYAR",
         date: "2022",
     },
 ];
 
 const skills = [{
         name: "Golang",
-        value: 40
+        value: 30
     },
     {
         name: "Javascript",
-        value: 60,
+        value: 40,
     },
     {
         name: "React",
-        value: 30,
+        value: 25,
     },
     {
         name: "Next",
-        value: 35,
+        value: 25,
     },
     {
         name: "Node Js",
-        value: 50,
+        value: 40,
     },
     {
         name: "PHP",
-        value: 50,
+        value: 40,
     },
     {
         name: "HTML CSS",
@@ -108,6 +108,12 @@ const dataportfolio = [{
         description: "Semua Website yang saya buat untuk sekedar belajar",
         link: "https://latihan-livid.vercel.app/",
     },
+    // {
+    //     img: "",
+    //     description: "#",
+    //     link: "#",
+    // },
+    
 ];
 
 const contactConfig = {

@@ -57,6 +57,7 @@ const Headermain = () => {
             <a href={socialprofils.twitter}>Twitter</a>
             <a href={socialprofils.instagram}>Instagram</a>
             <a href={socialprofils.youtube}>Youtube</a>
+            <a href={socialprofils.facebook}>Facebook</a>
             </div>
             <p className="copyright m-0">copyright 2025 {logotext}</p>
           </div>

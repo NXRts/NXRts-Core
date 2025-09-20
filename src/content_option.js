@@ -26,7 +26,7 @@ const worktimeline = [{
         where: "DigiDreams",
         date: "2025",
     },
-    {
+    {   
         jobtitle: "web developer",
         where: "SMKN 2 KARANGANYAR",
         date: "2024",
@@ -86,7 +86,7 @@ const services = [{
 const dataportfolio = [{
         img: "https://s6.gifyu.com/images/bz4Bk.png",
         description: "Simaku E-Learning | Aplikasi Pembelajaran Sekolah Berbasis E-Learning",
-        link: "#",
+        link: "https://simaku.id/",
     },
     {
         img: "https://s6.gifyu.com/images/bz4yi.png",
@@ -108,12 +108,7 @@ const dataportfolio = [{
         description: "Semua Website yang saya buat untuk sekedar belajar",
         link: "https://latihan-livid.vercel.app/",
     },
-    // {
-    //     img: "",
-    //     description: "#",
-    //     link: "#",
-    // },
-    
+
 ];
 
 const contactConfig = {
@@ -131,11 +126,12 @@ const socialprofils = {
     twitter: "https://x.com/MYArrofi",
     instagram: "https://www.instagram.com/my_arrofi/",
     youtube: "https://www.youtube.com/@MyArrofi",
+    facebook: "https://www.facebook.com/profile.php?id=100087066956881",
 };
 export {
     meta,
     dataabout,
-    dataportfolio,
+    dataportfolio,  
     worktimeline,
     skills,
     services,

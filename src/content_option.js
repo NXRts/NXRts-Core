@@ -19,7 +19,7 @@ const introdata = {
 
 const dataabout = {
     title: "About My Self",
-    aboutme: " Name: Muhammad Yusuf Arrofi | Code name: NXRts | Age: 18 | School: SMKN 2 KARANGANYAR | I'm a passionate developer with experience in web development. Always eager to learn new things and challenge myself to build better solutions. | Just a regular student who's no different from anyone else on the earth.",
+    aboutme: " Name: Muhammad Yusuf Arrofi | Code name: NXRts | Age: 19 | School: Graduated from State Vocational School 2 Karanganyar | I'm a passionate developer with experience in web development. Always eager to learn new things and challenge myself to build better solutions. | Just a regular student who's no different from anyone else on the earth.",
 };
 const worktimeline = [{
         jobtitle: "Backend Enginner",

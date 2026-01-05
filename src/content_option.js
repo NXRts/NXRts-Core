@@ -3,7 +3,7 @@ import { FaYoutube } from "react-icons/fa";
 const logotext = "NXRts";
 const meta = {
     title: "NXRts",
-    description: "I’m MYusuf Arrofi Full stack devloper,currently working in Karanganyar",
+    description: "I’m MYusuf Arrofi Full stack developer, currently working in Karanganyar",
 };
 
 const introdata = {
@@ -22,7 +22,7 @@ const dataabout = {
     aboutme: " Name: Muhammad Yusuf Arrofi | Code name: NXRts | Age: 19 | School: Graduated from State Vocational School 2 Karanganyar | I'm a passionate developer with experience in web development. Always eager to learn new things and challenge myself to build better solutions. | Just a regular student who's no different from anyone else on the earth.",
 };
 const worktimeline = [{
-        jobtitle: "Backend Enginner",
+        jobtitle: "Backend Engineer",
         where: "DigiDreams",
         date: "2025",
     },
@@ -74,12 +74,12 @@ const skills = [{
 ];
 
 const services = [{
-        title: "Backend Enginner",
-        description: "Sebagai Backend Engineer, saya bertanggung jawab untuk mengembangkan dan memelihara server, database, dan API backend. Saya juga bertanggung jawab untuk mengelola dan mengoptimalkan kinerja API. Saya memiliki pengalaman dalam mengembangkan aplikasi backend menggunakan Golang dan PostsgreSql. Saya memiliki pengetahuan yang baik tentang konsep REST API. Saya memiliki pengalaman dalam mengelola server menggunakan Docker dan EnginX",
+        title: "Backend Engineer",
+        description: "Sebagai Backend Engineer, saya bertanggung jawab untuk mengembangkan dan memelihara server, database, dan API backend. Saya juga bertanggung jawab untuk mengelola dan mengoptimalkan kinerja API. Saya memiliki pengalaman dalam mengembangkan aplikasi backend menggunakan Golang dan PostgreSQL. Saya memiliki pengetahuan yang baik tentang konsep REST API. Saya memiliki pengalaman dalam mengelola server menggunakan Docker dan Nginx",
     },
     {
         title: "Web Development",
-        description: "Sebagai Web Developer, saya bertanggung jawab untuk mengembangkan dan memelihara website. Saya memiliki pengalaman dalam mengembangkan website menggunakan PHP, React, Next, dan Node Js. Saya memiliki pengetahuan yang baik tentang konsep frontend dan backend. Saya memiliki pengalaman dalam mengelola server menggunakan Docker dan EnginX",
+        description: "Sebagai Web Developer, saya bertanggung jawab untuk mengembangkan dan memelihara website. Saya memiliki pengalaman dalam mengembangkan website menggunakan PHP, React, Next, dan Node Js. Saya memiliki pengetahuan yang baik tentang konsep frontend dan backend. Saya memiliki pengalaman dalam mengelola server menggunakan Docker dan Nginx",
     },
 ];
 
@@ -107,6 +107,11 @@ const dataportfolio = [{
         img: "https://s6.gifyu.com/images/bpcq5.png",
         description: "Semua Website yang saya buat untuk sekedar belajar",
         link: "https://latihan-livid.vercel.app/",
+    },
+    {
+        img: "https://s12.gifyu.com/images/bhn3e.png",
+        description: "Website yang saya buat untuk membuat MARKDOWN untuk README.md",
+        link: "https://markdown-mee.vercel.app/",
     },
 
 ];
